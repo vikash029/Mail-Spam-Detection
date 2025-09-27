@@ -68,6 +68,29 @@ Enter email text, sender/receiver Gmail, and app password. Click Predict & Send 
 
 ## Notes
 - Use Gmail App Password for email alerts.
+
+1. Enable 2-Step Verification on Gmail
+
+Go to your Google Account Security
+ page.
+
+Under “Signing in to Google”, find 2-Step Verification and click Turn on.
+
+Follow the steps to enable it (usually via SMS or Google Authenticator).
+
+2. Generate a Gmail App Password
+
+Go to App Passwords
+ in your Google Account.
+
+Under Select app, choose Other (Custom name).
+
+Give it a name like EmailSpamAlert.
+
+Click Generate.
+
+Google will give you a 16-character app password. Copy it (you’ll need it in your script).
+
 - Tested with Python 3.13+
 
 ## Author
