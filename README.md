@@ -1,3 +1,5 @@
+<img width="2520" height="1572" alt="image" src="https://github.com/user-attachments/assets/d9bd950e-19ec-4050-a65d-ab19af7e8473" />
+
 # Email Spam Detection UI
 
 This project uses a machine learning model to detect **spam** and **ham** emails.  
