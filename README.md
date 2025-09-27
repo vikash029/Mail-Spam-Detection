@@ -1,55 +1,26 @@
-Mail Spam Detection
+Spam Detection with Email Alerts
+Overview
 
-A machine learning project to classify emails as **Spam** or **Ham (Not Spam)** using Natural Language Processing (NLP) techniques.
+This project implements a spam detection system using machine learning (Python, scikit-learn). The system classifies messages as spam or ham (not spam) and can automatically trigger email alerts for detected spam messages.
 
 Features
-- Cleans and preprocesses email text (lowercasing, stopword removal, punctuation cleaning).
-- Converts text to numerical features using **TF-IDF**.
-- Trains a classifier (e.g. Multinomial Naive Bayes, SVM).
-- Evaluates performance with **Accuracy**, **Precision**, **Recall**, and **F1-score**.
-- Predicts new/unseen email messages in real time.
 
-Tech Stack
-- **Python**
-- **pandas**, **numpy** (data handling)
-- **scikit-learn** (vectorization, model training)
-- **matplotlib** / **seaborn** (visualizations)
-- Jupyter Notebook / Google Colab
+Load and preprocess SMS/email datasets.
 
+Train a machine learning classifier (e.g., Naive Bayes, Logistic Regression).
 
-Project Structure
+Evaluate the model with accuracy and classification reports.
 
+Predict new messages in real-time.
 
+Trigger email notifications for spam messages.
 
-mail-spam-detection/
-│
-├── data/ # dataset (spam/ham emails)
-├── notebooks/ # exploratory notebooks
-├── src/ # preprocessing & model scripts
-├── models/ # saved models/vectorizers
-└── README.md
+Dataset
 
+The example dataset is a CSV file with two main columns:
 
+v1 — Label (ham or spam)
 
-Setup & Usage
+v2 — Text message content
 
-1. Clone the repository:
-   ```bash
-   
-   git clone https://github.com/vikash029/mail-spam-detection.git
-   cd mail-spam-detection
-   
-Install dependencies:
-
-pip install -r requirements.txt
-Run training script or notebook to train the model:
-
-python src/train_model.py
-Use the saved model to predict spam/ham for new emails.
-
-Results
-The model achieves high precision and recall on the test dataset, ensuring reliable spam detection.
-
-License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
+Note: Extra columns (like Unnamed: 2) are ignored.
