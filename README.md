@@ -48,7 +48,10 @@ Alert: Alert email sent for spam!
 Email: Hi John, are we still on for the meeting tomorrow?
 Prediction: ham
 Alert: Alert email sent for ham!
+
+
 ---
+
 ### Notes
 
 Use a Gmail App Password for email alerts.
@@ -65,10 +68,13 @@ scikit-learn
 
 gradio
 
+
+---
+
 Install all dependencies using:
 
 pip install -r requirements.txt
----
+
 ### License
 
 This project is open-source and available under the MIT License.
