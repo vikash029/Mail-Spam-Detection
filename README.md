@@ -1,91 +1,70 @@
 <img width="2520" height="1572" alt="image" src="https://github.com/user-attachments/assets/d9bd950e-19ec-4050-a65d-ab19af7e8473" />
 
+Folder structure:
+
+email-spam-detection-ui/
+├── EMAIL_SPAM_DETECTION_UI.py
+├── spam_2.csv  # Place your dataset here
+├── requirements.txt
+└── README.md
+
+---
+
+
+# requirements.txt
+
+```
+pandas
+scikit-learn
+gradio
+```
+
+---
+
+# README.md
+
+```
 # Email Spam Detection UI
 
-This project uses a machine learning model to detect **spam** and **ham** emails.  
-It features a **Gradio web UI** and sends email alerts when a message is detected.
-
----
+Detect spam and ham emails with a Naive Bayes classifier.
 
 ## Features
-- Detects spam and ham emails using **Naive Bayes** classifier.
-- Sends alert emails for both spam and ham messages.
-- Interactive and user-friendly **Gradio UI**.
-- Copy-paste enabled textbox for easy usage.
+- Spam/Ham detection
+- Sends alert emails
+- Interactive Gradio UI
+- Copy-paste enabled textbox
 
----
+## Installation
 
-### Installation
+1. Clone repository:
+```
 
-1. **Clone the repository:**
-
-git clone https://github.com/yourusername/email-spam-detection-ui.git
+git clone [https://github.com/vikash029/email-spam-detection-ui.git](https://github.com/vikash029/email-spam-detection-ui.git)
 cd email-spam-detection-ui
 
+```
+
 2. Install dependencies:
+```
 
 pip install -r requirements.txt
 
----
+```
 
-### Usage
-
-Run the Python script:
+## Usage
+```
 
 python EMAIL_SPAM_DETECTION_UI.py
 
-Open the browser at http://127.0.0.1:7867.
+```
+Enter email text, sender/receiver Gmail, and app password. Click Predict & Send Alert.
 
-Enter your email text, click Predict & Send Alert, and view:
+## Notes
+- Use Gmail App Password for email alerts.
+- Tested with Python 3.13+
 
-Prediction: spam or ham
+## Author
+Vitthal Vikash
+```
 
-Alert Status: confirmation if email alert was sent
-
-Example
-Email: You won a free lottery ticket! Click here to claim
-Prediction: spam
-Alert: Alert email sent for spam!
-
-Email: Hi John, are we still on for the meeting tomorrow?
-Prediction: ham
-Alert: Alert email sent for ham!
-
-
----
-
-### Notes
-
-Use a Gmail App Password for email alerts.
-
-For public sharing, set share=True in demo.launch() to generate a temporary public URL.
-
-Tested with Python 3.13+.
-
-Dependencies
-
-pandas
-
-scikit-learn
-
-gradio
-
-
----
-
-Install all dependencies using:
-
-pip install -r requirements.txt
-
-### License
-
-This project is open-source and available under the MIT License.
-
-
----
-
-### `requirements.txt` example
-pandas==2.1.1
-scikit-learn==1.3.2
-gradio==3.50.1
 ---
