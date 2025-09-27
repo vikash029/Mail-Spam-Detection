@@ -3,6 +3,7 @@
 Folder structure:
 
 email-spam-detection-ui/
+
 ├── EMAIL_SPAM_DETECTION_UI.py
 ├── spam_2.csv  # Place your dataset here
 ├── requirements.txt
@@ -40,6 +41,7 @@ Detect spam and ham emails with a Naive Bayes classifier.
 ```
 
 git clone https://github.com/vikash029/Mail-Spam-Detection
+
 cd email-spam-detection-ui
 
 ```
