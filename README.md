@@ -5,8 +5,11 @@ Folder structure:
 email-spam-detection-ui/
 
 ├── EMAIL_SPAM_DETECTION_UI.py
+
 ├── spam_2.csv  # Place your dataset here
+
 ├── requirements.txt
+
 └── README.md
 
 ---
