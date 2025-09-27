@@ -1,5 +1,7 @@
 <img width="2520" height="1572" alt="image" src="https://github.com/user-attachments/assets/d9bd950e-19ec-4050-a65d-ab19af7e8473" />
 
+
+
 Folder structure:
 
 email-spam-detection-ui/
