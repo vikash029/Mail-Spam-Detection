@@ -39,7 +39,7 @@ Detect spam and ham emails with a Naive Bayes classifier.
 1. Clone repository:
 ```
 
-git clone [https://github.com/vikash029/email-spam-detection-ui.git](https://github.com/vikash029/email-spam-detection-ui.git)
+git clone https://github.com/vikash029/Mail-Spam-Detection
 cd email-spam-detection-ui
 
 ```
