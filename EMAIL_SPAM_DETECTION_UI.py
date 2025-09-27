@@ -61,6 +61,7 @@ def predict_single_email(email_text, sender_email, receiver_email, password):
     alert_status = send_email_alert(email_text, prediction, sender_email, receiver_email, password)
     return prediction, alert_status
 
+
 # ========================
 # 5. GRADIO UI
 # ========================
@@ -69,11 +70,12 @@ with gr.Blocks() as demo:
     gr.Markdown("Enter your email text, Gmail credentials, and click Predict & Send Alert.")
     
     
+    
     with gr.Row():
         sender_input = gr.Textbox(label="Sender Gmail", placeholder="Your Gmail address")
         receiver_input = gr.Textbox(label="Receiver Email", placeholder="Receiver email address")
     with gr.Row():
-        password_input = gr.Textbox(label="Gmail App Password", placeholder="Gmail App Password", type="password")
+        password_input = gr.Textbox(label="Gmail App Password", placeholder="Gmail App Password", type="password", info="Use a Gmail App Password. Click here for instructions: https://myaccount.google.com/apppasswords" )
     with gr.Row():
         email_input = gr.Textbox(label="Email Text", placeholder="Type or paste your email here...", lines=6, show_copy_button=True)
     with gr.Row():
