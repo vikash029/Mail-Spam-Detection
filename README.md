@@ -58,15 +58,12 @@ pip install -r requirements.txt
 
 ```
 
-## Usage
-```
-
 python EMAIL_SPAM_DETECTION_UI.py
 
 ```
-Enter email text, sender/receiver Gmail, and app password. Click Predict & Send Alert.
-
 ## Notes
+
+Enter email text, sender/receiver Gmail, and app password. Click Predict & Send Alert.
 - Use Gmail App Password for email alerts.
 
 1. Enable 2-Step Verification on Gmail
