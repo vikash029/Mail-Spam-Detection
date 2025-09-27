@@ -3,10 +3,6 @@
 
 
 📧 Email Spam Detection UI
-
-
-
-
 Detect spam and ham emails using a Naive Bayes classifier.
 Interactive Gradio UI with email alert functionality.
 
