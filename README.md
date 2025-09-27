@@ -2,95 +2,110 @@
 
 
 
-Folder structure:
+📧 Email Spam Detection UI
 
+
+
+
+Detect spam and ham emails using a Naive Bayes classifier.
+Interactive Gradio UI with email alert functionality.
+
+🚀 Features
+
+✅ Spam/Ham email detection
+
+✅ Sends alert emails for both spam and ham
+
+✅ Interactive Gradio UI with copy-paste enabled textboxes
+
+✅ Input validation for all fields
+
+🗂 Folder Structure
 email-spam-detection-ui/
-
 ├── EMAIL_SPAM_DETECTION_UI.py
-
-├── spam_2.csv  # Place your dataset here
-
+├── spam_2.csv          # Place your dataset here
 ├── requirements.txt
-
 └── README.md
 
----
+⚡ Installation
 
-
-# requirements.txt
-
-```
-pandas
-scikit-learn
-gradio
-```
-
----
-
-# README.md
-
-```
-# Email Spam Detection UI
-
-Detect spam and ham emails with a Naive Bayes classifier.
-
-## Features
-- Spam/Ham detection
-- Sends alert emails
-- Interactive Gradio UI
-- Copy-paste enabled textbox
-
-## Installation
-
-1. Clone repository:
-```
+Clone the repository:
 
 git clone https://github.com/vikash029/Mail-Spam-Detection
-
 cd email-spam-detection-ui
 
-```
 
-2. Install dependencies:
-```
+Install dependencies:
 
 pip install -r requirements.txt
 
-```
+
+Run the app:
 
 python EMAIL_SPAM_DETECTION_UI.py
 
-```
-## Notes
+🎯 Usage
 
-Enter email text, sender/receiver Gmail, and app password. Click Predict & Send Alert.
-- Use Gmail App Password for email alerts.
+Enter:
 
-1. Enable 2-Step Verification on Gmail
+Sender Gmail
+
+Receiver Gmail
+
+Gmail App Password
+
+Paste or type your email text.
+
+Click Predict & Send Alert.
+
+View Prediction and Alert Status.
+
+🔐 Gmail App Password Setup
+
+Required for sending email alerts.
+
+1. Enable 2-Step Verification
 
 Go to your Google Account Security
- page.
 
-Under “Signing in to Google”, find 2-Step Verification and click Turn on.
+Under “Signing in to Google”, enable 2-Step Verification
 
-Follow the steps to enable it (usually via SMS or Google Authenticator).
-
-2. Generate a Gmail App Password
+2. Generate an App Password
 
 Go to App Passwords
- in your Google Account.
 
-Under Select app, choose Other (Custom name).
+Select Other (Custom name) → e.g., EmailSpamAlert
 
-Give it a name like EmailSpamAlert.
+Click Generate
 
-Click Generate.
+Copy the 16-character app password and use it in the UI
 
-Google will give you a 16-character app password. Copy it (you’ll need it in your script).
+📊 Dataset
 
-- Tested with Python 3.13+
+Place spam_2.csv in the project folder
 
-```
-## Author  Vitthal Vikash
+Required columns:
 
+v1 → Label (spam/ham)
+
+v2 → Email text
+
+🛠 Dependencies
+
+pandas
+
+scikit-learn
+
+gradio
+
+Install with:
+
+pip install -r requirements.txt
+
+🖊 Author
+
+Vitthal Vikash
+
+✅ Tested with Python 3.13+
+🌐 Gradio UI supports public sharing by setting share=True in demo.launch()
 
