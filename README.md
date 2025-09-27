@@ -13,24 +13,26 @@ It features a **Gradio web UI** and sends email alerts when a message is detecte
 
 ---
 
-## Installation
+Installation
 
 1. **Clone the repository:**
-```bash
 
 git clone https://github.com/yourusername/email-spam-detection-ui.git
 cd email-spam-detection-ui
-Install dependencies:
 
-bash
-Copy code
+2. Install dependencies:
+
 pip install -r requirements.txt
+
+
 Usage
+
 Run the Python script:
 
-bash
-Copy code
 python EMAIL_SPAM_DETECTION_UI.py
+
+
+Open the browser at http://127.0.0.1:7867.
 
 Enter your email text, click Predict & Send Alert, and view:
 
@@ -39,8 +41,6 @@ Prediction: spam or ham
 Alert Status: confirmation if email alert was sent
 
 Example
-vbnet
-Copy code
 Email: You won a free lottery ticket! Click here to claim
 Prediction: spam
 Alert: Alert email sent for spam!
@@ -48,14 +48,17 @@ Alert: Alert email sent for spam!
 Email: Hi John, are we still on for the meeting tomorrow?
 Prediction: ham
 Alert: Alert email sent for ham!
+
 Notes
-Make sure to use a Gmail App Password for email alerts.
+
+Use a Gmail App Password for email alerts.
 
 For public sharing, set share=True in demo.launch() to generate a temporary public URL.
 
 Tested with Python 3.13+.
 
 Dependencies
+
 pandas
 
 scikit-learn
@@ -64,23 +67,26 @@ gradio
 
 Install all dependencies using:
 
-bash
-Copy code
 pip install -r requirements.txt
+
 License
+
 This project is open-source and available under the MIT License.
 
-yaml
-Copy code
 
 ---
 
-If you want, I can also **write the `requirements.txt` and make a complete GitHub-ready folder** so you can push it directly.  
+### `requirements.txt` example
+
+
+
+pandas==2.1.1
+scikit-learn==1.3.2
+gradio==3.50.1
+
+
+---
+
+If you want, I can also **prepare a full GitHub repo structure** with your Python file, README, and requirements.txt ready to push.  
 
 Do you want me to do that next?
-
-
-
-
-
-
