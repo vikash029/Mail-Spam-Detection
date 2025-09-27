@@ -17,10 +17,15 @@ Interactive Gradio UI with email alert functionality.
 ✅ Input validation for all fields
 
 🗂 Folder Structure
+
 email-spam-detection-ui/
+
 ├── EMAIL_SPAM_DETECTION_UI.py
+
 ├── spam_2.csv          # Place your dataset here
+
 ├── requirements.txt
+
 └── README.md
 
 ⚡ Installation
@@ -42,9 +47,7 @@ python EMAIL_SPAM_DETECTION_UI.py
 
 🎯 Usage
 
-Enter:
-
-Sender Gmail
+Enter: Sender Gmail
 
 Receiver Gmail
 
