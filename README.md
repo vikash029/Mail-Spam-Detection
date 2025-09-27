@@ -77,16 +77,7 @@ This project is open-source and available under the MIT License.
 ---
 
 ### `requirements.txt` example
-
-
-
 pandas==2.1.1
 scikit-learn==1.3.2
 gradio==3.50.1
-
-
 ---
-
-If you want, I can also **prepare a full GitHub repo structure** with your Python file, README, and requirements.txt ready to push.  
-
-Do you want me to do that next?
