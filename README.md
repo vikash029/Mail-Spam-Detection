@@ -91,8 +91,6 @@ Google will give you a 16-character app password. Copy it (you’ll need it in y
 - Tested with Python 3.13+
 
 ```
-
-```
 ## Author  Vitthal Vikash
-```
+
 
