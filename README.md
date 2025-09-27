@@ -13,7 +13,7 @@ It features a **Gradio web UI** and sends email alerts when a message is detecte
 
 ---
 
-Installation
+### Installation
 
 1. **Clone the repository:**
 
@@ -25,7 +25,7 @@ cd email-spam-detection-ui
 pip install -r requirements.txt
 
 
-Usage
+### Usage
 
 Run the Python script:
 
@@ -49,7 +49,7 @@ Email: Hi John, are we still on for the meeting tomorrow?
 Prediction: ham
 Alert: Alert email sent for ham!
 
-Notes
+### Notes
 
 Use a Gmail App Password for email alerts.
 
@@ -69,7 +69,7 @@ Install all dependencies using:
 
 pip install -r requirements.txt
 
-License
+### License
 
 This project is open-source and available under the MIT License.
 
