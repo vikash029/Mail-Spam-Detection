@@ -19,6 +19,8 @@ Tech Stack
 
 Project Structure
 
+
+
 mail-spam-detection/
 │
 ├── data/ # dataset (spam/ham emails)
@@ -33,6 +35,7 @@ Setup & Usage
 
 1. Clone the repository:
    ```bash
+   
    git clone https://github.com/vikash029/mail-spam-detection.git
    cd mail-spam-detection
    
